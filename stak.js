@@ -1,7 +1,6 @@
 let text = "hello";
 
 let stack = [];
-
 // Push characters into stack
 for(let char of text){
     stack.push(char);
