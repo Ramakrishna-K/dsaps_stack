@@ -5,7 +5,7 @@ function isValid(str){
     for(let char of str){
 
         if(char === '(' || char === '{' || char === '['){
-            stack.push(char);
+            stack.push(char)
         }
 
         else if(char === ')'){
